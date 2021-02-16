@@ -24,10 +24,10 @@ def my_route():
 ```{ .python }
 @ application.route('/my_route/my_slug')
 @breadcrumb('my_route')
-def my_route():
+def my_route(my_slug):
     slug = my_slug
 
-    @breadcrumb(p)
+    @breadcrumb(my_slug)
     def call():
         return "Done"
 
