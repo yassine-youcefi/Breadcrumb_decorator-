@@ -1,5 +1,11 @@
 ## Breadcrumb decorator for flask api
 
+### importation :
+```
+from breadcrumb import breadcrumb
+
+```
+
 ### Implementation :
 
 - simple route:
